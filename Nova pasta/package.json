@@ -1,9 +1,9 @@
 {
-  "name": "aula1",
+  "name": "novapasta",
   "version": "1.0.0",
   "main": "server.js",
-  "license": "MIT",
   "type": "module",
+  "license": "MIT",
   "scripts": {
     "start": "node server.js"
   },
