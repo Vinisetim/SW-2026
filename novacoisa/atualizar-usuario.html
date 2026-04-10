@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atualizar Usuário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Atualizar um Usuário</h1>
+        <p>Digite o ID do usuário e os novos dados.</p>
+        
+        <!-- Formulário para atualizar usuário -->
+        <form id="form-atualizar-usuario">
+            <!-- Campo para o ID do usuário -->
+            <input 
+                type="number" 
+                id="usuario-id" 
+                placeholder="ID do usuário (1-10)"
+                min="1"
+                max="10"
+                required
+            />
+            
+            <!-- Campo para o novo nome -->
+            <input 
+                type="text" 
+                id="usuario-nome" 
+                placeholder="Novo nome"
+                required
+            />
+            
+            <!-- Campo para o novo email -->
+            <input 
+                type="email" 
+                id="usuario-email" 
+                placeholder="Novo e-mail"
+                required
+            />
+            
+            <!-- Botão para atualizar -->
+            <button type="submit">Atualizar Usuário</button>
+        </form>
+        
+        <!-- Div para exibir a resposta -->
+        <div id="resultado-usuario"></div>
+    </div>
+
+    <script src="atualizar-usuario.js"></script>
+</body>
+</html>
